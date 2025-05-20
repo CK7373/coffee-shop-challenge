@@ -1,8 +1,8 @@
-import sys
-from pathlib import Path
-sys.path.append(str(Path(__file__).parent.parent))
-import pytest
 from coffee import Coffee
+from order import Order
+from customer import Customer
+import pytest
+
 
 class TestCoffee:
     def test_init_with_valid_name(self):

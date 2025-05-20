@@ -29,7 +29,7 @@ class Order:
     
     @customer.setter
     def customer(self, customer):
-        if not isinstance(customer, Customer):
+        if not isinstance(customer, customer):
             raise TypeError("customer must be of type Customer")
         self._customer = customer
     
